@@ -1,15 +1,9 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotly.express as px
 
 # Carregar dados
-df = pd.read_csv('data/finbraRREOgeral.csv')
-
-# Converter a coluna 'Valor' para numérica (removendo vírgulas)
-df['Valor'] = df['Valor'].str.replace(',', '').astype(float)
-
-# Filtrar dados e realizar agrupamento
-df = df.groupby(['Instituição', 'Conta', 'Ano']).agg({'Valor': 'sum', 'População': 'mean'}).reset_index()
+df = pd.read_csv('outputs/df1.csv')
 
 # Exibir um gráfico de exemplo no Streamlit
 st.title("Dashboard de Análise Financeira")
@@ -24,11 +18,7 @@ instituicao = st.sidebar.selectbox('Selecione a instituição', df['Instituiçã
 df_filtrado = df[(df['Ano'] == ano) & (df['Instituição'] == instituicao)]
 
 # Criar gráfico
-fig, ax = plt.subplots()
-ax.bar(df_filtrado['Conta'], df_filtrado['Valor'])
-ax.set_title(f'Valores por Conta para {instituicao} no ano {ano}')
-ax.set_ylabel('Valor')
-ax.set_xlabel('Conta')
+fig = px.bar(df_filtrado, x='Conta', y='Valor', title=f'Valores por Conta para {instituicao} no ano {ano}')
 
-# Mostrar gráfico no Streamlit
-st.pyplot(fig)
+# Mostrar gráfico no Streamlit usando Plotly
+st.plotly_chart(fig)
