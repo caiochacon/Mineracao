@@ -24,17 +24,21 @@ Essas instruções ajudarão você a configurar o ambiente necessário para roda
 
 2. **Crie e ative o ambiente virtual para instalar as dependências apenas nele:**
 
-     - No Windows:
 
+     - Criando a venv:
        ```bash
        python -m venv venv
+       ```
+
+     - Ativando a venv no Windows:
+
+       ```bash
        .\venv\Scripts\activate
        ```
 
-     - No Linux/macOS:
+     - Ativando a venv no Linux/macOS:
 
        ```bash
-       python -m venv venv
        source venv/bin/activate
        ```
 
