@@ -7,7 +7,7 @@ Bem-vindo ao repositório do projeto de Mineração Estatística de Dados! Este 
 <table width=100%>
   <tr>
     <td align="center"><a href="https://github.com/caiochacon"><img style="border-radius: 50%;" src="assets\caio.jpeg" width="100px;" alt=""/><br /><sub><b>Caio Lucas</b></sub></a><br /><a href="https://github.com/caiochacon" title=""></a></td>
-    <td align="center"><a href="https://github.com/talesnobre"><img style="border-radius: 50%;" src="assets\tales.png" width="100px;" alt=""/><br /><sub><b>Epitácio Neto</b></sub></a><br /><a href="https://github.com/talesnobre" title=""></a></td>
+    <td align="center"><a href="https://github.com/talesnobre"><img style="border-radius: 50%;" src="assets\tales.png" width="100px;" alt=""/><br /><sub><b>Tales Nobre</b></sub></a><br /><a href="https://github.com/talesnobre" title=""></a></td>
   </tr>
 </table>
 
