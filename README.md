@@ -2,6 +2,15 @@
 
 Bem-vindo ao repositório do projeto de Mineração Estatística de Dados! Este projeto foi desenvolvido para rodar um Dashboard que foi feito usando streamlit e plotly. Siga as instruções abaixo para configurar o ambiente e iniciar o projeto.
 
+## Alunos
+
+<table width=100%>
+  <tr>
+    <td align="center"><a href="https://github.com/caiochacon"><img style="border-radius: 50%;" src="assets\caio.jpeg" width="100px;" alt=""/><br /><sub><b>Caio Lucas</b></sub></a><br /><a href="https://github.com/caiochacon" title=""></a></td>
+    <td align="center"><a href="https://github.com/talesnobre"><img style="border-radius: 50%;" src="assets\tales.png" width="100px;" alt=""/><br /><sub><b>Epitácio Neto</b></sub></a><br /><a href="https://github.com/talesnobre" title=""></a></td>
+  </tr>
+</table>
+
 ## 🚀 Começando
 
 Essas instruções ajudarão você a configurar o ambiente necessário para rodar o projeto em sua máquina local.
