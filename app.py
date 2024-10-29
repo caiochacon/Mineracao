@@ -6,7 +6,7 @@ import plotly.express as px
 df = pd.read_csv('outputs/df1.csv')
 
 # Exibir um gráfico de exemplo no Streamlit
-st.title("Dashboard de Análise Financeira")
+st.title("Dashboard de Impostos por Município/Ano")
 
 # Filtrar por ano
 ano = st.sidebar.selectbox('Selecione o ano', df['Ano'].unique())
